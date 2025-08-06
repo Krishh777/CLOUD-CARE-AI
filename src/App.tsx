@@ -8,7 +8,10 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+
+
 const App = () => (
+<h1>Cloud Care AI 🚀</h1>
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
